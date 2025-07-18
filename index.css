@@ -1,3 +1,73 @@
 body {
     margin: 0;
+    font-family: sans-serif;
+}
+
+.header {
+    color: #FFFFFF;
+    background-color: #6943FF;
+    height: 220px;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.heading {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.head-section {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100px;
+}
+
+#input-text {
+    display: border-box;
+    margin: 1rem 0;
+    padding: 0.2rem;
+    color: #FFFFFF;
+    background-color: #6943FF;
+    border: 2px solid #B295FF;
+    border-radius: 0.2rem;
+    text-align: center;
+    font-size: 40px;
+}
+
+.convert-btn {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.2rem;
+    color: #3D3D3D;
+    background-color: #FFFFFF;
+    font-weight: medium;
+    box-shadow: 2px 2px;
+    cursor: pointer;
+}
+
+.main {
+    padding: 1rem;
+    background-color: #F4F4F4F4;
+}
+
+.main div {
+    text-align: center;
+    width: 450px;
+    margin: 0 auto;
+}
+
+.main div section {
+    margin: 1rem 0;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    background-color: #FFFFFF;
+}
+
+.main div section h3 {
+    color: #5A537B;
+}
+
+.main div section p {
+    color: #353535;
 }
